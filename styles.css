@@ -1,0 +1,116 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3e5d8;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  color: black;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  color: #854632;
+}
+
+.intro {
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  font-size: 20px;
+  color: #854632;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.ingredients ul li {
+  color: #5f574f; /* soft brown-grey text color */
+}
+
+.ingredients ul li::marker {
+  color: #854632; /* optional: color the bullet dot to match headings */
+}
+
+.section ul,
+.section ol {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.section ul li,
+.section ol li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.prep-time {
+  background-color: #fff0f5; /* light pink background */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.prep-time h3 {
+  color: #5f574f;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.prep-time ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.prep-time ul li {
+  color: #5f574f; /* softer brown-grey for list text */
+  margin-bottom: 5px;
+}
+
+.prep-time ul li strong {
+  color: #854632; /* same color as "Preparation time" heading */
+  font-weight: bold;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nutrition-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #4a4a4a;
+}
+
+.nutrition-table td:last-child {
+  font-weight: bold;
+  color: #854632;
+}
